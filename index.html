@@ -7,7 +7,8 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <!-- <link rel="stylesheet" href="./css/styles.css"> -->
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body> 
     <header class="header">
@@ -38,52 +39,52 @@
 <main>
     <section class="hero">
         <div class="container">
-                    <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-                    <button type="button" class="button-hero" data-modal-open>Замовити послугу</button>
+            <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
+            <button type="button" class="hero__button" data-modal-open>Замовити послугу</button>
         </div>
     </section>
     <section class="benefits">
         <div class="container">
-            <ul class="benefits-list">
-                <li class="benefits-item">
-                    <h2 class="benefits-title antena">УВАГА ДО ДЕТАЛЕЙ</h2>
-                    <p class="benefits-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+            <ul class="benefits__list">
+                <li class="benefits__item">
+                    <h2 class="benefits__title antena">УВАГА ДО ДЕТАЛЕЙ</h2>
+                    <p class="benefits__text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                 </li>
-                <li class="benefits-item">
-                    <h2 class="benefits-title clock">ПУНКТУАЛЬНІСТЬ</h2>
-                    <p class="benefits-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                <li class="benefits__item">
+                    <h2 class="benefits__title clock">ПУНКТУАЛЬНІСТЬ</h2>
+                    <p class="benefits__text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                 </li>
-                <li class="benefits-item">
-                    <h2 class="benefits-title laptop">ПЛАНУВАННЯ</h2>
-                    <p class="benefits-text">Так само консультація з широким активом значною мірою зумовлює.</p>
+                <li class="benefits__item">
+                    <h2 class="benefits__title laptop">ПЛАНУВАННЯ</h2>
+                    <p class="benefits__text">Так само консультація з широким активом значною мірою зумовлює.</p>
                 </li>
-                <li class="benefits-item">
-                    <h2 class="benefits-title astronaut">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
-                    <p class="benefits-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                <li class="benefits__item">
+                    <h2 class="benefits__title astronaut">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
+                    <p class="benefits__text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                 </li>
             </ul>
         </div>
     </section>
     <section class="services">
         <div class="container">
-            <h2 class="services-title">Чим ми займаємося</h2>
-        <ul class="services-list">
-            <li class="services-img">
-                <div class="services-img-txt">
-                    <img src="./images/pc.jpg" alt="Створення програми за допомогою написання коду" width="370" class="services-pictures">
-                    <p class="services-text">Десктопні додатки</p>
+            <h2 class="services__title">Чим ми займаємося</h2>
+        <ul class="services__list">
+            <li class="services__item">
+                <div class="services__conteiner">
+                    <img src="./images/pc.jpg" alt="Створення програми за допомогою написання коду" width="370" class="services__pictures">
+                    <p class="services__description">Десктопні додатки</p>
                 </div>
             </li>
-            <li class="services-img">
-                <div class="services-img-txt">
-                    <img src="./images/notepad.jpg" alt="Вибір макету для створеної програми" width="370" class="services-pictures">
-                    <p class="services-text">Мобільні додатки</p>
+            <li class="services__item">
+                <div class="services__conteiner">
+                    <img src="./images/notepad.jpg" alt="Вибір макету для створеної програми" width="370" class="services__pictures">
+                    <p class="services__description">Мобільні додатки</p>
                 </div>
             </li>
-            <li class="services-img">
-                <div class="services-img-txt">
-                    <img src="./images/img.jpg" alt="Оформлення зовнішнього вигляду програми" width="370" class="services-pictures">
-                    <p class="services-text">Дизайнерські рішення</p>
+            <li class="services__item">
+                <div class="services__conteiner">
+                    <img src="./images/img.jpg" alt="Оформлення зовнішнього вигляду програми" width="370" class="services__pictures">
+                    <p class="services__description">Дизайнерські рішення</p>
                 </div>
             </li>
         </ul>
@@ -246,46 +247,46 @@
     </section>
     <section class="partners">
         <div class="container">
-            <h2 class="partners-title">Постійні клієнти</h2>
-            <ul class="partners-list">
-                <li class="partners-item">
-                    <a href="" class="partners-link">
-                        <svg class="partners-logo" width="106px" height="60px">
+            <h2 class="partners__title">Постійні клієнти</h2>
+            <ul class="partners__list">
+                <li class="partners__item">
+                    <a href="" class="partners__link">
+                        <svg class="partners__logo" width="106px" height="60px">
                             <use href="./images/icons.svg#icon-ya_co_logo"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="partners-item">
-                    <a href="" class="partners-link">
-                        <svg class="partners-logo" width="106px" height="60px">
+                <li class="partners__item">
+                    <a href="" class="partners__link">
+                        <svg class="partners__logo" width="106px" height="60px">
                             <use href="./images/icons.svg#icon-tagline_here_logo"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="partners-item">
-                    <a href="" class="partners-link">
-                        <svg class="partners-logo" width="106px" height="60px">
+                <li class="partners__item">
+                    <a href="" class="partners__link">
+                        <svg class="partners__logo" width="106px" height="60px">
                             <use href="./images/icons.svg#icon-company_logo"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="partners-item">
-                    <a href="" class="partners-link">
-                        <svg class="partners-logo" width="106px" height="60px">
+                <li class="partners__item">
+                    <a href="" class="partners__link">
+                        <svg class="partners__logo" width="106px" height="60px">
                             <use href="./images/icons.svg#icon-foster_peters_logo"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="partners-item">
-                    <a href="" class="partners-link">
-                        <svg class="partners-logo" width="106px" height="60px">
+                <li class="partners__item">
+                    <a href="" class="partners__link">
+                        <svg class="partners__logo" width="106px" height="60px">
                             <use href="./images/icons.svg#icon-brand_logo"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="partners-item">
-                    <a href="" class="partners-link">
-                        <svg class="partners-logo" width="106px" height="60px">
+                <li class="partners__item">
+                    <a href="" class="partners__link">
+                        <svg class="partners__logo" width="106px" height="60px">
                             <use href="./images/icons.svg#icon-comp_tagline_logo"></use>
                         </svg>
                     </a>
