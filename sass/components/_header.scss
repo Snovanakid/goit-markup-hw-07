@@ -25,7 +25,9 @@
         & .link.current {
             color: var(--brand-blue-color);
         }
-        & .link:hover,
+        & .link:hover {
+            color: var(--brand-blue-color);
+        }
         & .link:focus {
             color: var(--brand-blue-color);
         }
@@ -125,11 +127,16 @@
     font-weight: 500;
     line-height: 1.17;
     letter-spacing: 0.02em;
-
     transition: color 250ms var(--timing-function);
         &:hover {
             color: var(--brand-blue-color);
         }  
+        &:focus {
+            color: var(--brand-blue-color);
+        }
+        &:focus .icon-envelope {
+            fill: var(--brand-blue-color);
+        }
 }
 
 .phone {
