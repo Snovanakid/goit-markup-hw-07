@@ -185,14 +185,15 @@
     background-color: var(--brand-blue-color);
     border-radius: 4px;
     border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     cursor: pointer;
-    transition: box-shadow 250ms var(--timing-function);
+    transition: background-color 250ms var(--timing-function);
     padding: 10px 52px;
     display: block;
     margin: 0 auto;
         &:hover,
         &:focus {
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            background-color: #188CE8;
         }
 }
 /* ---------------MODAL---BACKDROP-------------- */
